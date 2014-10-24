@@ -1,0 +1,15 @@
+Name: github-ticker
+Version: 0.1
+Author: Dylan Simon
+Maintainer: dylan@dylex.net
+License: BSD3
+Build-Type: Simple
+Cabal-Version: >= 1.6
+
+Source-Repository head
+  Type: git
+  Location: http://github.com/dylex/github-ticker
+
+Executable ghticker
+  Main-is: Main.hs
+  Build-Depends: base, time, unix, process, directory, JuicyPixels
